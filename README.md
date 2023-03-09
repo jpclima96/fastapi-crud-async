@@ -1,19 +1,23 @@
-# Developing and Testing an Asynchronous API with FastAPI and Pytest
+# Stack do projeto
 
-## Want to learn how to build this?
+- Python
+- FastAPI
+- Docker
+- Pytest
+- Postgres
 
-Check out the [post](https://testdriven.io/blog/fastapi-crud).
 
-## Want to use this project?
 
-Build the images and run the containers:
+
+## Como rodar o projeto?
+
+Faça build nas imagens e rode os containers:
 
 ```sh
 $ docker-compose up -d --build
 ```
 
-Test out the following routes:
+Teste as seguintes rotas:
 
-1. [http://localhost:8002/ping](http://localhost:8002/ping)
 1. [http://localhost:8002/docs](http://localhost:8002/docs)
-1. [http://localhost:8002/notes](http://localhost:8002/notes)
+1. [http://localhost:8002/events](http://localhost:8002/events)
